@@ -82,4 +82,9 @@ we can use useState hook to use some state inside our functional  component.beca
 we'd always have to use a class component to use state.
 
 
-11.
+11.useState() -- form ekakta use krna hati tiyenne.ekath itin loku awlk na. <input/> ekath button ekak widyta use krnna puluwan,type eka "submit" kiyl dala.type="submit" value='this is a button'.
+props use kara eka component ekakin anikata values pass krnna.title eka ehema.aluth song ekak add krddi ehema addSong use kra prop ekak widiyata.
+
+
+12.useEffect() hook. we can think this hook as a lifecycle method that we'd normally use inside class components in react.
+useEffect eka initial render ekedi saha hama change ekakadima re render wenawa api explicitly limit damme nathi unoth. same component eka athule multiple times use krnna puluwan.

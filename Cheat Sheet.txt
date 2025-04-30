@@ -88,3 +88,15 @@ props use kara eka component ekakin anikata values pass krnna.title eka ehema.al
 
 12.useEffect() hook. we can think this hook as a lifecycle method that we'd normally use inside class components in react.
 useEffect eka initial render ekedi saha hama change ekakadima re render wenawa api explicitly limit damme nathi unoth. same component eka athule multiple times use krnna puluwan.
+
+
+13.useContext() hook. mekenkrnne itin ara context access krna 3 weni method eka. mokda apita class component wala multiple context access krnna amarui. .Consumer use karama poddak confuse wenna puluwan context godak tiyena kota.
+eka nisa pahasuma method eka tamai useContext hook eka functional components athule use krna eka.
+
+
+14.useContext() hooks apita onatharam use krnna puluwan same component eka athule.eka nisa multiple context access krnna patta lesi.
+const {isLightTheme, light, dark} = useContext(ThemeContext);
+const {toggleAuth} = useContext(AuthContext);
+
+
+15.  Creating Context with Functional Components. used createContext function and useContext and useState hooks
